@@ -48,6 +48,13 @@
       "senha": "123456",
       "nome": "Novo Usuário",
       "email": "novo@email.com"
+    },
+    {
+      "id": "0b6da962-fd13-4400-99b9-c7c01d5ced09",
+      "login": "dep",
+      "senha": "dep",
+      "nome": "dep",
+      "email": "dep@abc.com"
     }
   ]
 }

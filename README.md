@@ -13,17 +13,17 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 **Print dos testes da API com Postman ou similar**
 
-<< COLOQUE A IMAGEM GET AQUI >>
+![Imagem GET](public/images/postman_get.png)
 
-<< COLOQUE A IMAGEM POST AQUI >>
+![Imagem GET](public/images/postman_post.png)
 
-<< COLOQUE A IMAGEM PUT AQUI >>
+![Imagem GET](public/images/postman_put.png)
 
-<< COLOQUE A IMAGEM DELETE AQUI >>
+![Imagem GET](public/images/postman_delete.png)
 
 **Print da aba NETWORK com requisições Fetch/XHR POST e GET**
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Imagem do GET e POST funcionando através do Newtork](public/images/network_print.png)
 
 ## **Orientações Gerais**
 
