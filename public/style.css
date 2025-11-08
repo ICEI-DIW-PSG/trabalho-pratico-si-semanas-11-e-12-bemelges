@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -12,8 +13,35 @@ nav {
   flex-wrap: wrap;
 }
 
+.bootstrap-modal {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+  border: 2px solid #00ac2b;
+  border-radius: 10px;
+}
+
+.bootstrap-modal .modal-title {
+  color: #00ac2b;
+}
+
+.bootstrap-modal .form-control {
+  background-color: #2c2c2c;
+  color: #fff;
+  border: none;
+  width: 100%;
+}
+
+.bootstrap-modal .form-control::placeholder {
+  color: #ccc;
+}
+
+.bootstrap-modal .btn-success {
+  background-color: #00ac2b;
+  border: none;
+}
+
 .login-box {
-  margin-left: auto; /* empurra para a direita */
+  margin-left: auto;
 }
 
 .login-box form {
@@ -37,6 +65,13 @@ nav {
   border-radius: 4px;
   cursor: pointer;
 }
+.usuario-logado {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+}
+
 
 @media (max-width: 600px) {
   nav {
@@ -64,7 +99,7 @@ nav {
 
 /* Navbar bootstrap */
 .navbar {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0.5rem 1rem;
@@ -125,7 +160,14 @@ header h2 {
 
 /* Menu */
 nav {
-  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000000;
+  color: #fff;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
 nav ul {
@@ -161,18 +203,21 @@ nav a:hover {
   align-items: center;
   background: #1c1c1c;
 }
+
 .sobre img {
   max-width: 300px;
   border-radius: 8px;
 }
+
 .textosobre {
-    width: 300px;
-    height: 400px; 
-    border: 5px solid hsl(118, 26%, 28%); 
-    overflow: auto; 
-    padding: 10px;
+  width: 300px;
+  height: 400px;
+  border: 5px solid hsl(118, 26%, 28%);
+  overflow: auto;
+  padding: 10px;
   flex: 1;
 }
+
 .textosobre h2 {
   margin-bottom: 1rem;
   color: #00ac2b;
@@ -183,9 +228,11 @@ nav a:hover {
   text-align: center;
   padding: 2rem;
 }
-.albuns h2{
+
+.albuns h2 {
   color: #00ac2b;
 }
+
 .album {
   display: inline-block;
   width: 270px;
@@ -213,17 +260,6 @@ nav a:hover {
   color: #ddd;
 }
 
-/*Responsisividade em outras telas*/
-@media (max-width: 768px)
-  .albuns {
-    grid-template-columns: repeat(2, 1fr);
-}
-
-@media (max-width: 480px)
-  .albuns {
-    grid-template-columns: 1fr;
-}
-
 
 /* Rodapé */
 footer {
@@ -235,6 +271,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
 footer .social {
   display: flex;
   flex-wrap: wrap;
@@ -242,17 +279,21 @@ footer .social {
   gap: 10px;
   padding-top: 20px;
 }
+
 .social img {
   width: 24px;
 }
+
 footer a {
   color: #f5f5f5;
   text-decoration: none;
   transition: 0.3s;
 }
+
 footer a:hover {
   color: #32ff65;
 }
+
 footer p {
   font-size: 10px;
   color: #777;
