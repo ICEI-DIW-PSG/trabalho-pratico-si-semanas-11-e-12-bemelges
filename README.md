@@ -6,10 +6,10 @@ Para esse projeto, além de mudarmos o JSON para o JSON Server, vamos permitir o
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Bernardo Melges dos Anjos
+- Matricula: 897998
+- Proposta de projeto escolhida: Pessoas e Produções
+- Breve descrição sobre seu projeto: O projeto é a criação de um site de procura de artistas, porém a homepage criada será relacionada ao artista Fabricio Soares Teixeira, mais conhecido como FBC, que ganhou notoriedade no nicho do rap. Ademais, o site vai abordar sua bibliografia e discografia. 
 
 **Print dos testes da API com Postman ou similar**
 
